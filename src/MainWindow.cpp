@@ -691,7 +691,7 @@ void MainWindow::toggleDockWidget(DockWidget *dock_widget)
 void MainWindow::setCursorAddress(RVA addr)
 {
     this->cursorAddress = addr;
-    emit cursorAddressChanged(core->getOffset());
+    //emit cursorAddressChanged(core->getOffset());
 }
 
 void MainWindow::seek(const RVA offset)

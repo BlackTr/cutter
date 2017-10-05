@@ -527,7 +527,7 @@ border-top: 0px;
             <enum>Qt::ScrollBarAlwaysOff</enum>
            </property>
            <property name="horizontalScrollBarPolicy">
-            <enum>Qt::ScrollBarAlwaysOff</enum>
+            <enum>Qt::ScrollBarAsNeeded</enum>
            </property>
            <property name="undoRedoEnabled">
             <bool>true</bool>
@@ -894,10 +894,10 @@ QToolTip {
                    <enum>QFrame::Plain</enum>
                   </property>
                   <property name="verticalScrollBarPolicy">
-                   <enum>Qt::ScrollBarAlwaysOff</enum>
+                   <enum>Qt::ScrollBarAsNeeded</enum>
                   </property>
                   <property name="horizontalScrollBarPolicy">
-                   <enum>Qt::ScrollBarAlwaysOff</enum>
+                   <enum>Qt::ScrollBarAsNeeded</enum>
                   </property>
                   <property name="undoRedoEnabled">
                    <bool>false</bool>
@@ -1220,7 +1220,7 @@ p, li { white-space: pre-wrap; }
         </item>
        </layout>
       </widget>
-    </widget>
+     </widget>
     </item>
     <item>
      <widget class="QTabWidget" name="memSideTabWidget_2">
@@ -1301,8 +1301,8 @@ border-top: 0px;
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>256</width>
-             <height>868</height>
+             <width>257</width>
+             <height>884</height>
             </rect>
            </property>
            <property name="sizePolicy">
@@ -2739,7 +2739,7 @@ QToolTip {
         </item>
        </layout>
       </widget>
-    </widget>
+     </widget>
     </item>
    </layout>
   </widget>
